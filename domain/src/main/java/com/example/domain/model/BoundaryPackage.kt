@@ -1,8 +1,8 @@
 package com.example.domain.model
 
-import com.example.domain.interactors.Interactor
+import com.example.domain.boundaries.GeneralBoundary
 
-data class InteractionPackage(
-        val backend: Interactor.Backend,
-        val presenter: Interactor.LoginPresenter
+data class BoundaryPackage(
+        val backend: GeneralBoundary.Backend,
+        val presenter: GeneralBoundary.LoginPresenter
 )

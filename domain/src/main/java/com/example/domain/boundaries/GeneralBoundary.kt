@@ -1,9 +1,9 @@
-package com.example.domain.interactors
+package com.example.domain.boundaries
 
 import com.example.domain.model.LoginResponse
 import io.reactivex.Single
 
-interface Interactor {
+interface GeneralBoundary {
 
     interface LoginPresenter {
         fun onLoginSuccess()
